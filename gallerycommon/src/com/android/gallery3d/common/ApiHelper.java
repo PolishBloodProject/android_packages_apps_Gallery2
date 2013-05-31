@@ -70,7 +70,7 @@ public class ApiHelper {
             "android.graphics.SurfaceTexture", "release");
 
     public static final boolean HAS_SURFACE_TEXTURE =
-            Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
+            Build.VERSION.SDK_INT <= VERSION_CODES.HONEYCOMB;
 
     public static final boolean HAS_MTP =
             Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB_MR1;
@@ -146,7 +146,7 @@ public class ApiHelper {
             Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
 
     public static final boolean HAS_SURFACE_TEXTURE_RECORDING =
-            Build.VERSION.SDK_INT >= VERSION_CODES.JELLY_BEAN;
+            Build.VERSION.SDK_INT <= VERSION_CODES.JELLY_BEAN;
 
     public static final boolean HAS_ACTION_BAR =
             Build.VERSION.SDK_INT >= VERSION_CODES.HONEYCOMB;
